@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/BST"
+            android:icon="@drawable/bst"
+            android:title="Binary Search Tree" />
+        <item
+            android:id="@+id/AVL"
+            android:icon="@drawable/avl"
+            android:title="AVL Tree" />
+        <item
+            android:id="@+id/stack"
+            android:icon="@drawable/stack"
+            android:title="Stack" />
+        <item
+            android:id="@+id/queue"
+            android:icon="@drawable/queue"
+            android:title="Queue" />
+    </group>
+</menu>
